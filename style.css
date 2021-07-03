@@ -5,10 +5,11 @@
     font-family: 'Quicksand', sans-serif;
 }
 .container{
-    border: 15px solid white;
     width: 100%;
     min-height: 100vh;
     background-color: #BCE2F8;
+    border: 15px solid white;
+    border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -19,6 +20,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 30px;
 }
 .container .one h1{
     text-align: center;
