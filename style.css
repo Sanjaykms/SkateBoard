@@ -56,3 +56,14 @@
 .container .two .two-1 img{
     width: 70px;
 }
+@media (max-width:720px) {
+    .container .one h1,.container .two .two-1 h3{
+        font-size: 20px;
+    }
+    .container .one p,.container .two .two-1 p{
+        font-size: 12px;
+    }
+    .container .two .two-1 img{
+        width: 45px;
+    }
+}
